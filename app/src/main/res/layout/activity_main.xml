@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<LinearLayout
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/gradient_1"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Round Timer"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+
+    <LinearLayout
+        android:id="@+id/text_baslik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="@drawable/gradient_list">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RUN"
+            android:textSize="32dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="48dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REST"
+            android:textSize="32dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="32dp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ROUND"
+            android:textSize="32dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="32dp"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_calisma"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/gradient_list"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+
+        <NumberPicker
+            android:id="@+id/number_picker_second"
+            android:layout_width="60dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="24dp"/>
+
+        <TextView
+            android:id="@+id/text_view_sn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sec"
+            android:textSize="16sp"
+            android:layout_marginLeft="8dp"/>
+
+
+        <NumberPicker
+            android:id="@+id/number_picker_dinlenme_second"
+            android:layout_width="60dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="24dp"/>
+
+        <TextView
+            android:id="@+id/text_view_dinlenme_sn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sec"
+            android:textSize="16sp"
+            android:layout_marginLeft="8dp"/>
+
+
+
+        <NumberPicker
+            android:id="@+id/number_picker_round"
+            android:layout_width="60dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="24dp"
+
+            />
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+    <Button
+        android:id="@+id/basla_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="baslat"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        android:backgroundTint="@color/black"/>
+
+
+</LinearLayout>
